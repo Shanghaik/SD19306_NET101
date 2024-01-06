@@ -1,0 +1,9 @@
+﻿Buổi 1: 
+- Hoàn thiện cài đặt
+- Tạo project
+- thiết lập startup
+- Chạy câu lệnh Hello World
+- Một số trick lập trình
+- Tạo TK github
+Buổi 2: 
+- Biến, kiểu dữ liệu, nhập xuất dữ liệu và ép kiểu
