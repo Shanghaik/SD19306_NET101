@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Toantu", "3_Toantu\3_Toan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_CauLenhDieuKien", "3_CauLenhDieuKien\3_CauLenhDieuKien.csproj", "{48E0CB7D-7A97-4EE7-B8FE-093A9C3DACC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_VongLap", "4_VongLap\4_VongLap.csproj", "{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_VongLap", "4_VongLap\4_VongLap.csproj", "{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Luyentap", "5_Luyentap\5_Luyentap.csproj", "{A7CED89D-3849-40C0-9411-525418E2EA1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,9 +58,16 @@ Global
 		{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7CED89D-3849-40C0-9411-525418E2EA1C} = {296EDC36-DC86-472D-955D-EEDFB5415852}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBE290AE-44A8-48A6-BF24-66836373E77A}
