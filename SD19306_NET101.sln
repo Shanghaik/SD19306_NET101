@@ -22,7 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_CauLenhDieuKien", "3_CauL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_VongLap", "4_VongLap\4_VongLap.csproj", "{5E22BE09-1D79-4292-8BCB-01F5D267BDE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Luyentap", "5_Luyentap\5_Luyentap.csproj", "{A7CED89D-3849-40C0-9411-525418E2EA1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Luyentap", "5_Luyentap\5_Luyentap.csproj", "{A7CED89D-3849-40C0-9411-525418E2EA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Ham_Function", "6_Ham_Function\6_Ham_Function.csproj", "{030333D3-DD03-42C6-9E4E-3F8630ADBE2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CED89D-3849-40C0-9411-525418E2EA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030333D3-DD03-42C6-9E4E-3F8630ADBE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030333D3-DD03-42C6-9E4E-3F8630ADBE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030333D3-DD03-42C6-9E4E-3F8630ADBE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030333D3-DD03-42C6-9E4E-3F8630ADBE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
