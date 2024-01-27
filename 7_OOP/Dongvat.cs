@@ -62,7 +62,7 @@ namespace _7_OOP
         // Method có cấu tạo y hệt như function nhưng phải gắn liên với đối tượng
         public void InThongTin()
         {
-            Console.WriteLine($"Động vật {ten} {gioitinh }có số tuổi là: {Tuoi}");
+            Console.WriteLine($"Động vật {ten} {gioitinh} có số tuổi là: {Tuoi}");
             Console.WriteLine($"Đang sinh sống tại {Noio} hiện còn: {sochan} chân");
         }
         // Nôi viết hoa thực chất sẽ trỏ đến noio viết thường nên bản chất chúng đều là 1

@@ -28,8 +28,31 @@
             // Tạo 1 đối tượng
             Dongvat dv; // Khai báo - đối tượng sẽ mang giá trị null
             // dv.InThongTin(); // Lỗi vì đối tượng chưa được khởi tạo
-            Dongvat dv2 = new Dongvat(); // Khỏi tạo bằng constructor không tham số
-            dv2.InThongTin();
+            //Dongvat dv2 = new Dongvat(); // Khỏi tạo bằng constructor không tham số
+            //dv2.InThongTin();
+            //// Sử dụng get để lấy giá trị cảu thuộc tính và set để gán
+            //// giá trị cho thuộc tính
+            //Console.WriteLine("Sau khi set giá trị");
+            //dv2.Ten = "Mèo"; // set để gán giá trị
+            //dv2.Noio = "Rừng";
+            //dv2.InThongTin();
+            //Console.WriteLine("Số chân của con vật này là: " + dv2.Sochan);
+            // Get hay set đều dùng dấu . để tương tác với thuộc tính
+            // Dùng Constructor có tham số
+            Dongvat dv3 = new Dongvat("Gà", "3 tháng", "Mái", 2, "Chuồng gà");
+            dv3.InThongTin();
+            Dongvat dv4 = dv3;
+            dv4.InThongTin();
+            dv3.Sochan = 10;
+            Console.WriteLine("Sau khi thay đổi dv3");
+            dv4.InThongTin();
+            // Khi gán dv4 = dv3 mà ta thay đổi thông tin của dv3 thì
+            // dv4 thay đổi theo
+            // Class là 1 references type là những kiểu dữ liệu cho phép
+            // tham chiếu. Tức là khi ta khai báo dv4 = dv3 thì bản chất
+            // chúng ta chỉ tạo ra thêm 1 biến dv4 kiểu Dongvat nhưng trỏ
+            // tới nơi lưu trữ dữ liệu của dv3.
+
         }
     }
 }
