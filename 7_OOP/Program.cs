@@ -53,6 +53,7 @@
             // chúng ta chỉ tạo ra thêm 1 biến dv4 kiểu Dongvat nhưng trỏ
             // tới nơi lưu trữ dữ liệu của dv3.
 
+
         }
     }
 }
