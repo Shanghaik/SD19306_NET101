@@ -16,6 +16,7 @@ namespace _8_OOP_4TC
         // kế thừa và 1 thuộc tính riêng
         public ChimDaiBang()
         {
+            this.ten = "Đại bàng mỏ tép";
         }
         public ChimDaiBang(string chungloai, string noio, int soluong) : base(chungloai, noio, soluong)
         {
@@ -29,7 +30,14 @@ namespace _8_OOP_4TC
         // lớp con sau đó Ctrl . chọn add parameter
         // to Constructor => Chọn cái mình cần
         // Từ khóa base cho phép trỏ đến thành phần
-        // từ lớp cha
+        // từ lớp cha, base = class cha
+        // Kế thừa phương thức
+        public void XuatThongTin()
+        {
+            base.InThongTin(); // dùng từ khóa base để gọi phương thức của lớp cha
+            // Kế thừa phương thức
+            Console.WriteLine("Tên là " + ten);
+        }
 
     }
 }

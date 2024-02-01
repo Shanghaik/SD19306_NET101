@@ -9,9 +9,9 @@ namespace _8_OOP_4TC
     internal class ChimChoc
     {
         // thuộc tính
-        string chungloai;
-        string noio;
-        int soluong;
+        string chungloai = "Chim bay";
+        string noio = "Trong tổ";
+        int soluong = 1000;
         public string Chungloai { get => chungloai; set => chungloai = value; }
         public string Noio { get => noio; set => noio = value; }
         public int Soluong { get => soluong; set => soluong = value; }
@@ -27,7 +27,7 @@ namespace _8_OOP_4TC
 
         public void InThongTin()
         {
-            Console.WriteLine($"Loài {chungloai}");
+            Console.WriteLine($"Loài {chungloai}, Nơi ở {noio}, Số lượng {soluong}");
         }
     }
 }

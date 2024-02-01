@@ -20,12 +20,27 @@
          */
         static void Main(string[] args)
         {
-            Oto ot = new Oto();
-            // Console.WriteLine(ot.ten);
-            Console.WriteLine(ot.hangSX);
-            // Console.WriteLine(ot.namSX);
-            Console.WriteLine(ot.color);
-            Console.WriteLine(ot.soghe);
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            //Oto ot = new Oto();
+            //// Console.WriteLine(ot.ten);
+            //Console.WriteLine(ot.hangSX);
+            //// Console.WriteLine(ot.namSX);
+            //Console.WriteLine(ot.color);
+            //Console.WriteLine(ot.soghe);
+            // Tạo đối tượng
+            ChimDaiBang daibang = new ChimDaiBang();
+            ChimChoc chimchoc = new ChimChoc();
+            // ChimDaiBang daibang2 = new ChimChoc(); // Lỗi
+            ChimChoc chimchoc2 = new ChimDaiBang();
+            // constructor của lớp ChimChoc sẽ có tối đa 3 thuộc tính mà ChimDaiBang
+            // có 4 thuộc tính do đó không thể tạo đối tượng daibang bằng constructor mà
+            // chỉ khởi tạo 3 thuộc tính hay nói tổng quát, không thể tạo ra đối tượng
+            // của lớp con với constructor của lớp cha
+            // Điều ngược lại hoàn toàn được vì constructor của ChimDaiBang có 4 thuộc
+            // tính nhưng nó đã bao gồm cả 3 thuộc tính của lớp ChimChoc
+            chimchoc.InThongTin();
+            daibang.InThongTin(); // đại bàng đã kế thừa từ chim chóc nên nó dùng được
+            daibang.XuatThongTin(); 
         }
     }
 }
