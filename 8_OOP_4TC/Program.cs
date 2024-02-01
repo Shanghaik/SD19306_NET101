@@ -38,9 +38,18 @@
             // của lớp con với constructor của lớp cha
             // Điều ngược lại hoàn toàn được vì constructor của ChimDaiBang có 4 thuộc
             // tính nhưng nó đã bao gồm cả 3 thuộc tính của lớp ChimChoc
-            chimchoc.InThongTin();
-            daibang.InThongTin(); // đại bàng đã kế thừa từ chim chóc nên nó dùng được
-            daibang.XuatThongTin(); 
+            //chimchoc.InThongTin();
+            //daibang.InThongTin(); // đại bàng đã kế thừa từ chim chóc nên nó dùng được
+            //daibang.XuatThongTin(); 
+            //daibang.Bay();
+            //daibang.Bay("săn mồi");
+            ChimChoc chimchoc3 = new ChimDaiBang();
+            chimchoc3.VoCanh();
+            // Khi đối tượng được gọi bằng constructor của lớp nào thì phương thức
+            // cũng tương tự dùng của lớp đó
+            // Đối tượng của lớp abstract nếu muốn tạo ra thì phải là bằng
+            // constructor của lớp con vì Class có thể ảo nhương tượng thì không thể
+            Ca ca = new CaVoi();   
         }
     }
 }

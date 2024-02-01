@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace _8_OOP_4TC
 {
@@ -38,6 +39,25 @@ namespace _8_OOP_4TC
             // Kế thừa phương thức
             Console.WriteLine("Tên là " + ten);
         }
-
+        // Tính đa hình là tính chất cho phép các hành động giống nhau được thể hiện khác
+        // nhau ở những đối tượng khác nhau hoặc cùng 1 đối tượng nhưng trong các trạng
+        // thái khác nhau
+        public void Bay()
+        {
+            Console.WriteLine("Bay tà tà chờ thời cơ");
+        }
+        public void Bay(string trangthai)
+        {
+            if (trangthai == "săn mồi") Console.WriteLine("Bay nhanh");
+            else if (trangthai == "thấy súng") Console.WriteLine("Bay mất tích");
+            else Console.WriteLine("Lại bay tà tà");
+        }
+        // Cùng 1 hành động của 1 đối tượng (cùng tên method) nhưng trạng thái khác 
+        // nhau (khác tham số truyền vào) thì thể hiện khác nhau
+        // Khi đó người ta gọi là Overload - Nạp chồng
+        public override void VoCanh()
+        {
+            Console.WriteLine("Chim đại bàng không vỗ cánh");
+        }
     }
 }

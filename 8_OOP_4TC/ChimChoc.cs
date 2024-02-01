@@ -24,10 +24,13 @@ namespace _8_OOP_4TC
             this.noio = noio;
             this.soluong = soluong;
         }
-
         public void InThongTin()
         {
             Console.WriteLine($"Loài {chungloai}, Nơi ở {noio}, Số lượng {soluong}");
+        }
+        public virtual void VoCanh() // từ khóa virtual cho phép 1 phương thức có thể được ghi đè
+        {
+            Console.WriteLine("Vỗ pạch pạch");
         }
     }
 }
